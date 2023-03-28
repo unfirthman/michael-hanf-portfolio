@@ -10,11 +10,14 @@
   },
   "dependencies": {
     "localforage": "^1.10.0",
+    "markdown-to-jsx": "^7.2.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.6",
     "react-router-dom": "^6.9.0",
-    "sort-by": "^0.0.2"
+    "sort-by": "^0.0.2",
+    "typeit-react": "^2.6.4"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
