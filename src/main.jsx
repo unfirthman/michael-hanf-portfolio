@@ -8,13 +8,13 @@ import {
 import './index.css'
 //import Root from './routes/root';
 import ErrorPage from './error-page';
-import Header from './routes/root/root.jsx';
 import Blog from './routes/blog/blog.jsx';
+import Root from './routes/root/root';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header />,
+    element: <Root />,
     errorElement: <ErrorPage />
   },
   {

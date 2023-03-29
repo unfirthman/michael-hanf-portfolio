@@ -2,46 +2,40 @@ import React, { Component } from "react";
 import TypeIt from "typeit-react";
 import "./root.css";
 
-export default class Header extends Component {
+export default class Root extends Component {
     render() {
         return (
             <React.Fragment>
                 <header id="home">
                     <nav id="nav-wrap">
-                        <a className="mobile-btn" href="#nav-wrap" title="Show navigation">
-                            Show navigation
-                        </a>
-                        <a className="mobile-btn" href="#" title="Hide navigation">
-                            Hide navigation
-                        </a>
-                        <ul id="nav" className="nav">
-                            <li className="current">
-                                <a className="smoothscroll" href="#home">
-                                    Home
+                        <ul id="nav" classname="nav">
+                            <li classname="current">
+                                <a classname="smoothscroll" href="#home">
+                                    home
                                 </a>
                             </li>
                             <li>
-                                <a className="smoothscroll" href="#about">
-                                    About
+                                <a classname="smoothscroll" href="#about">
+                                    about
                                 </a>
                             </li>
                             <li>
-                                <a className="smoothscroll" href="#resume">
-                                    Resume
+                                <a classname="smoothscroll" href="#resume">
+                                    resume
                                 </a>
                             </li>
                             <li>
-                                <a className="smoothscroll" href="#portfolio">
-                                    Works
+                                <a classname="smoothscroll" href="#portfolio">
+                                    works
                                 </a>
                             </li>
                             <li>
-                                <a className="smoothscroll" href="#contact">
-                                    Contact
+                                <a classname="smoothscroll" href="#contact">
+                                    contact
                                 </a>
                             </li>
                             <li>
-                                <a href="/blog">Blog</a>
+                                <a href="/blog">blog</a>
                             </li>
                         </ul>
                     </nav>
@@ -66,8 +60,8 @@ export default class Header extends Component {
                                             .delete(3)
                                             .pause(500)
                                             .type("ian")
-                                            .pause(500)
-                                            .delete(26)
+                                            .pause(2000)
+                                            .delete(36)
                                             .go();
                                         instance.reset
                                         // Remember to return it!

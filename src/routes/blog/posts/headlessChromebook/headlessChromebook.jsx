@@ -22,7 +22,7 @@ function HeadlessChromebook() {
     });
 
     return(
-    <div>
+    <div style={{marginTop: 150}}>
             <Markdown>
                 {post}
             </Markdown>

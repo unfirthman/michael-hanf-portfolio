@@ -1,11 +1,11 @@
 
-<h2 style='text-align: center'># Make a Chromebook a headless Ubuntu server. </h2>
+# Make a Chromebook a headless Ubuntu server
 
 ### How to completely wipe your Chromebook, delete ChromeOS, and install Ubuntu.
 
 ## There are several basic steps:
 
-<p style='text-align: center'> **I. Set Chromebook to run in Developer mode**
+**I. Set Chromebook to run in Developer mode**
 
 **II. Disable `write-protect` mode**
 
@@ -13,7 +13,7 @@
 
 **IV. Install Ubuntu Server**
 
-**V. Install Extras (Neovim, ZSH)**</p>
+**V. Install Extras (Neovim, ZSH)**
 
 
 To enable developer mode, first power off the computer. When powering back up, press the `Power` button while also pressing `ESC+Refresh`. This should boot you to the recovery screen. Once there, press `CTRL + D` to enable developer mode.
