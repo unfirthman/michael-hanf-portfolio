@@ -7,7 +7,9 @@ export default class Root extends Component {
     render() {
         return (
             <React.Fragment>
-            <Navbar />
+                <header>
+
+                    <Navbar />
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">Michael Hanf</h1>
