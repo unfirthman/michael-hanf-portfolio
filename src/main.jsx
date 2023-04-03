@@ -10,11 +10,17 @@ import './index.css'
 import ErrorPage from './error-page';
 import Blog from './routes/blog/blog.jsx';
 import Root from './routes/root/root';
+import About from './routes/about/About';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/about",
+    element: <About />,
     errorElement: <ErrorPage />
   },
   {

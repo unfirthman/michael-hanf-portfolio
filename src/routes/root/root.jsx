@@ -1,45 +1,13 @@
 import React, { Component } from "react";
 import TypeIt from "typeit-react";
 import "./root.css";
+import Navbar from "../../navBar/Navbar";
 
 export default class Root extends Component {
     render() {
         return (
             <React.Fragment>
-                <header id="home">
-                    <nav id="nav-wrap">
-                        <ul id="nav" classname="nav">
-                            <li classname="current">
-                                <a classname="smoothscroll" href="#home">
-                                    home
-                                </a>
-                            </li>
-                            <li>
-                                <a classname="smoothscroll" href="#about">
-                                    about
-                                </a>
-                            </li>
-                            <li>
-                                <a classname="smoothscroll" href="#resume">
-                                    resume
-                                </a>
-                            </li>
-                            <li>
-                                <a classname="smoothscroll" href="#portfolio">
-                                    works
-                                </a>
-                            </li>
-                            <li>
-                                <a classname="smoothscroll" href="#contact">
-                                    contact
-                                </a>
-                            </li>
-                            <li>
-                                <a href="/blog">blog</a>
-                            </li>
-                        </ul>
-                    </nav>
-
+            <Navbar />
                     <div className="row banner">
                         <div className="banner-text">
                             <h1 className="responsive-headline">Michael Hanf</h1>

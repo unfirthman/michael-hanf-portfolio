@@ -13,7 +13,7 @@ return (
                                 </a>
                             </li>
                             <li>
-                                <a classname="smoothscroll" href="#about">
+                                <a classname="smoothscroll" href="/about">
                                     about
                                 </a>
                             </li>
