@@ -1,6 +1,10 @@
 
 import React, { Component } from 'react';
 import "../../App.css"
+import '../../portfolio_shared_data.json'
+import '../../resumeData.js'
+
+
 export default class About extends Component {
   render() {
     let resumeData = this.props.resumeData;

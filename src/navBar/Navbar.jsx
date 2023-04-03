@@ -6,29 +6,29 @@ import '../routes/root/root.css'
 const Navbar = () => {
 return (
                     <nav id="nav-wrap">
-                        <ul id="nav" classname="nav">
-                            <li classname="current">
-                                <a classname="smoothscroll" href="/">
+                        <ul id="nav" className="nav">
+                            <li className="current">
+                                <a className="smoothscroll" href="/">
                                     home
                                 </a>
                             </li>
                             <li>
-                                <a classname="smoothscroll" href="/about">
+                                <a className="smoothscroll" href="/about">
                                     about
                                 </a>
                             </li>
                             <li>
-                                <a classname="smoothscroll" href="#resume">
+                                <a className="smoothscroll" href="#resume">
                                     resume
                                 </a>
                             </li>
                             <li>
-                                <a classname="smoothscroll" href="#portfolio">
+                                <a className="smoothscroll" href="#portfolio">
                                     works
                                 </a>
                             </li>
                             <li>
-                                <a classname="smoothscroll" href="#contact">
+                                <a className="smoothscroll" href="#contact">
                                     contact
                                 </a>
                             </li>
