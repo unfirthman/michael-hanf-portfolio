@@ -1,20 +1,18 @@
 
 import React, { Component } from 'react';
 import "../../App.css"
-import '../../portfolio_shared_data.json'
-import '../../resumeData.js'
 
 
 export default class About extends Component {
   render() {
-    let resumeData = this.props.resumeData;
+
     return (
       <section id="about">
          <div className="row">
 
             <div className="three columns">
 
-               <img className="profile-pic"  src="images/hanf-night.jpeg" alt="" />
+               <img className="profile-pic"  src="./hanf-night.jpeg" alt="" />
 
             </div>
 
@@ -22,9 +20,7 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
-               {
-                 resumeData.aboutme
-               }
+                            Hello world! I am a software developer living and Brooklyn.
                </p>
 
                <div className="row">
@@ -33,13 +29,10 @@ export default class About extends Component {
 
                   <h2>Contact Details</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
+       						<span>Brooklyn</span>
                      <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
                     <br></br>
-                    <span>{resumeData.website}</span>
+                    <span>www.mikehanf.com</span>
        					   </p>
                   </div>
                </div>
