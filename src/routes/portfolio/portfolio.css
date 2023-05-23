@@ -1,0 +1,144 @@
+/* ------------------------------------------------------------------ */
+/* e. Portfolio Section
+/* ------------------------------------------------------------------ */
+
+#portfolio {
+   background: #b4a7b6;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+
+#portfolio h1 {
+   font: 24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #000;
+}
+
+/* Portfolio Content */
+#portfolio-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.portfolio-item {
+   width: calc(50% - 30px);
+   margin-bottom: 20px;
+   position: relative;
+}
+
+.portfolio-item:nth-child(2n+1) {
+   margin-right: 10px;
+}
+
+.portfolio-item img {
+   width: 100%;
+   height: auto;
+}
+
+.portfolio-item .overlay {
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0;
+   -webkit-transition: opacity 0.3s ease-in-out;
+   -moz-transition: opacity 0.3s ease-in-out;
+   -o-transition: opacity 0.3s ease-in-out;
+   transition: opacity 0.3s ease-in-out;
+   background: url(../images/overlay-bg.png) repeat;
+}
+
+.portfolio-item .link-icon {
+   display: block;
+   color: #fff;
+   height: 30px;
+   width: 30px;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+   opacity: 0;
+   -webkit-transition: opacity 0.3s ease-in-out;
+   -moz-transition: opacity 0.3s ease-in-out;
+   -o-transition: opacity 0.3s ease-in-out;
+   transition: opacity 0.3s ease-in-out;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.portfolio-item .portfolio-item-meta {
+   padding: 18px;
+   display: flex;
+   box-sizing: content-box;
+}
+
+.portfolio-item .portfolio-item-meta h5 {
+   font: 14px/21px 'opensans-bold', sans-serif;
+   color: #fff;
+}
+
+.portfolio-item .portfolio-item-meta p {
+   font: 12px/18px 'opensans-light', sans-serif;
+   color: #c6c7c7;
+   margin-bottom: 0;
+}
+
+/* on hover */
+.portfolio-item:hover .overlay {
+   opacity: 1;
+}
+
+.portfolio-item:hover .link-icon {
+   opacity: 1;
+}
+
+/* popup modal */
+.popup-modal {
+   max-width: 550px;
+   background: #fff;
+   position: relative;
+   margin: 0 auto;
+   width: 100%;
+   box-sizing: border-box;
+}
+
+.popup-modal .description-box {
+   padding: 12px 36px 18px 36px;
+}
+
+.popup-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+
+/* fadein/fadeout effect for modal popup */
+.mfp-fade.mfp-wrap .mfp-content .popup-modal {
+   opacity: 0;
+   transition: all 200ms ease-in-out;
+}
+
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content .popup-modal {
+   opacity: 1;
+}
+
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
+   opacity: 0;
+}
+
+@media (max-width: 768px) {
+   .portfolio-item {
+      width: 100%;
+   }
+
+   .portfolio-item:nth-child(2n+1) {
+      margin-right: 0;
+   }
+}
+

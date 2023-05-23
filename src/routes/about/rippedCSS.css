@@ -1,0 +1,120 @@
+/*! CSS Used from: https://unfirthman.github.io/new-hanf-react-portfolio/css/default.css */
+div,
+span,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h2 {
+    color: #313131;
+    font-family: "opensans-bold", sans-serif;
+    font-weight: normal;
+}
+h2 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 6px;
+}
+p {
+    margin: 0 0 30px 0;
+}
+.row {
+    width: 96%;
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.row .row {
+    width: auto;
+    max-width: none;
+    margin: 0 -20px;
+}
+.row:before,
+.row:after {
+    content: " ";
+    display: table;
+}
+.row:after {
+    clear: both;
+}
+.columns {
+    position: relative;
+    padding: 0 20px;
+    min-height: 1px;
+    float: left;
+}
+@media only screen and (max-width: 767px) {
+    .row {
+        width: 460px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .columns {
+        width: auto !important;
+        float: none;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 30px;
+    }
+    .row .row {
+        width: auto;
+        max-width: none;
+        margin: 0 -30px;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .row {
+        width: auto;
+    }
+}
+/*! CSS Used from: https://unfirthman.github.io/new-hanf-react-portfolio/css/layout.css */
+#about h2 {
+    font: 22px/30px "opensans-bold", sans-serif;
+    color: #fff;
+    margin-bottom: 12px;
+}
+#about p {
+    line-height: 30px;
+    color: #7a7a7a;
+}
+#about .contact-details {
+    width: 41.66667%;
+}
+/*! CSS Used from: https://unfirthman.github.io/new-hanf-react-portfolio/css/media-queries.css */
+@media only screen and (max-width: 900px) {
+    #about .contact-details {
+        width: 50%;
+    }
+}
+/*! CSS Used fontfaces */
+@font-face {
+    font-family: "opensans-bold";
+    src: url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.eot");
+    src: url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.eot?#iefix")
+            format("embedded-opentype"),
+        url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.woff")
+            format("woff"),
+        url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.ttf")
+            format("truetype"),
+        url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold")
+            format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "opensans-bold";
+    src: url("https://unfirthman.github.io/new-hanf-react-portfolio/css/fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold")
+        format("svg");
+}
