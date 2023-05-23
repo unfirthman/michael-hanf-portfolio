@@ -21,27 +21,27 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/about",
+    path: "/michael-hanf-portfolio/about",
     element: <About />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/blog",
+    path: "/michael-hanf-portfolio/blog",
     element: <Blog />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/resume",
+    path: "/michael-hanf-portfolio/resume",
     element: <Resume />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/portfolio",
+    path: "/michael-hanf-portfolio/portfolio",
     element: <Portfolio />,
     errorElement: <ErrorPage />
   },
   {
-    path: "/contact",
+    path: "/michael-hanf-portfolio/contact",
     element: <Contact />,
     errorElement: <ErrorPage />
   }
