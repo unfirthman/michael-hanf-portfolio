@@ -1,7 +1,7 @@
 {
     "name": "michael-hanf-portfolio",
     "version": "0.0.0",
-    "homepage": "https://unfirthman.github.io/michael-hanf-portfolio/",
+    "homepage": "https://unfirthman.github.io/michael-hanf-portfolio/#",
     "private": true,
     "type": "module",
     "scripts": {
