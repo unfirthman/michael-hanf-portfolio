@@ -1,5 +1,4 @@
 import React, { useRef } from "react";
-import "./Contact.scss";
 import Navbar from "../../navBar/Navbar";
 
 function Contact() {
