@@ -5,6 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.md'],
-    base: "/michael-hanf-portfolio/"
+    base: "/michael-hanf-portfolio/",
+    resolve: {
+    alias: {
+      "./runtimeConfig": "./runtimeConfig.browser",
+    },
+},
 
 })
